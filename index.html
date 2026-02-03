@@ -3,9 +3,453 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project-52db6e1770084653002</title>
+    <title>Bugboom - Food Waste Processing Machine</title>
+    <link rel="stylesheet" href="templatemo-noir-fashion.css">
+<!-- 
+TemplateMo 599 Noir Fashion
+https://templatemo.com/tm-599-noir-fashion
+-->
 </head>
 <body>
-    <!-- Blank white page -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ff3366;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,10 20,50 50,90 80,50" fill="none" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <circle cx="50" cy="50" r="5" fill="url(#logoGrad)"/>
+                </svg>
+                <span class="logo-text">BUGBOOM</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#collections" class="nav-link">Products</a></li>
+                <li><a href="#featured" class="nav-link">Features</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Products</a></li>
+            <li><a href="#featured">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-badge">Revolutionary Technology 2025</div>
+                <h1 class="hero-title">
+                    <span class="line"><span>Revolutionize</span></span>
+                    <span class="line"><span>Food <span class="accent">Waste</span></span></span>
+                    <span class="line"><span>Management</span></span>
+                </h1>
+                <p class="hero-description">
+                    Introducing Bugboom, the cutting-edge food waste processing machine that transforms waste into valuable resources.
+                    Efficient, sustainable, and built for the future of food waste management.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Waste Reduction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Continuous Operation</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Eco-Friendly</span>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <a href="#collections" class="cta-button primary">View Products</a>
+                    <a href="#featured" class="cta-button outline">See in Action</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <div class="hero-carousel">
+                        <div class="carousel-slide active">
+                            <img src="images/noir-fashion-hero-01.avif" alt="Bugboom Machine Front View">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/noir-fashion-hero-02.avif" alt="Bugboom Processing Unit">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/noir-fashion-hero-03.avif" alt="Bugboom Control Panel">
+                        </div>
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                    </div>
+                    <div class="floating-tags">
+                        <div class="tag">Industrial Grade</div>
+                        <div class="tag">Automated</div>
+                        <div class="tag">High Efficiency</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="collections" id="collections">
+        <div class="section-header">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Advanced food waste processing solutions</p>
+        </div>
+        
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">All</button>
+            <button class="tab-btn" data-category="women">Commercial</button>
+            <button class="tab-btn" data-category="men">Industrial</button>
+            <button class="tab-btn" data-category="accessories">Accessories</button>
+            <button class="tab-btn" data-category="limited">Custom Solutions</button>
+        </div>
+
+        <div class="grid" id="collectionsGrid">
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img src="images/urban-edge.avif" alt="Bugboom Commercial Model">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">New Arrival</span>
+                    <h3 class="card-title">Bugboom Pro</h3>
+                    <p class="card-subtitle">Commercial Model</p>
+                    <p class="card-price">From $9,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img src="images/midnight-luxe.avif" alt="Bugboom Industrial Model">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Custom</span>
+                    <h3 class="card-title">Bugboom Industrial</h3>
+                    <p class="card-subtitle">Heavy Duty Solution</p>
+                    <p class="card-price">From $29,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img src="images/neo-classic.avif" alt="Bugboom Compact Model">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Bestseller</span>
+                    <h3 class="card-title">Bugboom Compact</h3>
+                    <p class="card-subtitle">Small Business Solution</p>
+                    <p class="card-price">From $4,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img src="images/accent-pieces.avif" alt="Bugboom Accessories">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Trending</span>
+                    <h3 class="card-title">Processing Accessories</h3>
+                    <p class="card-subtitle">Enhancement Kits</p>
+                    <p class="card-price">From $499</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img src="images/spring-bloom.avif" alt="Bugboom Restaurant Model">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Pre-Order</span>
+                    <h3 class="card-title">Bugboom Kitchen</h3>
+                    <p class="card-subtitle">Restaurant Solution</p>
+                    <p class="card-price">From $7,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img src="images/street-rebel.avif" alt="Bugboom Mobile Unit">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Hot</span>
+                    <h3 class="card-title">Bugboom Mobile</h3>
+                    <p class="card-subtitle">Portable Processing</p>
+                    <p class="card-price">From $14,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img src="images/avant-garde.avif" alt="Bugboom Smart System">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Exclusive</span>
+                    <h3 class="card-title">Bugboom Smart</h3>
+                    <p class="card-subtitle">AI-Powered System</p>
+                    <p class="card-price">From $24,999</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img src="images/minimal-chic.avif" alt="Bugboom Maintenance Kit">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Essentials</span>
+                    <h3 class="card-title">Maintenance Kit</h3>
+                    <p class="card-subtitle">Essential Accessories</p>
+                    <p class="card-price">From $299</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <div class="featured-container">
+            <div class="featured-hero">
+                <div class="featured-content">
+                    <span class="label">Engineered for Excellence</span>
+                    <h2>The Science of Waste Processing</h2>
+                    <p>Where efficiency meets sustainability. Our advanced technology combines innovative processing methods with intelligent automation to transform food waste into valuable resources. Built for reliability and environmental impact.</p>
+                    
+                    <div class="feature-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">⚡</div>
+                            <div class="highlight-title">High Efficiency</div>
+                            <div class="highlight-desc">Processes up to 500kg of waste per hour with minimal energy consumption</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🌱</div>
+                            <div class="highlight-title">Eco-Friendly</div>
+                            <div class="highlight-desc">Reduces landfill waste by 99% and produces biogas for energy</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🤖</div>
+                            <div class="highlight-title">Smart Automation</div>
+                            <div class="highlight-desc">AI-powered controls with remote monitoring and predictive maintenance</div>
+                        </div>
+                    </div>
+                    
+                    <a href="#collections" class="feature-cta">Explore Technology</a>
+                </div>
+                
+                <div class="featured-image-section">
+                    <div class="featured-image-grid">
+                        <div class="featured-img">
+                            <img src="images/art-of-fashion-01.avif" alt="Bugboom Processing Technology">
+                        </div>
+                        <div class="featured-img">
+                            <img src="images/art-of-fashion-02.avif" alt="Advanced Control Systems">
+                        </div>
+                        <div class="featured-img">
+                            <img src="images/art-of-fashion-03.avif" alt="Sustainable Processing">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials">
+                <div class="testimonials-header">
+                    <h3>What Our Customers Say</h3>
+                    <p class="section-subtitle">Real results from food waste management professionals</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-quote">
+                            "Bugboom has revolutionized our waste management process. We've reduced our landfill contributions by 95% and even generate energy from the biogas produced."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">M</div>
+                            <div class="author-info">
+                                <h4>Maria Rodriguez</h4>
+                                <p>Restaurant Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-quote">
+                            "The efficiency and reliability of Bugboom exceeded our expectations. The ROI was achieved within 18 months, and the environmental impact is tremendous."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">J</div>
+                            <div class="author-info">
+                                <h4>James Wilson</h4>
+                                <p>Operations Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-quote">
+                            "The smart monitoring system and predictive maintenance have made maintenance incredibly easy. We've had zero downtime since installation."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">L</div>
+                            <div class="author-info">
+                                <h4>Lisa Thompson</h4>
+                                <p>Facility Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us more about your inquiry..." required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Visit Our Headquarters</h3>
+                            <p>456 Industrial Park<br>
+                            San Francisco, CA 94105<br>
+                            Tech District</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Call Us</h3>
+                            <p>Main: <a href="tel:+14151234567">+1 415 123 4567</a><br>
+                            Support: <a href="tel:+14151234568">+1 415 123 4568</a><br>
+                            Mon-Fri, 8AM-6PM PST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <p>General: <a href="mailto:hello@bugboom.com">hello@bugboom.com</a><br>
+                            Support: <a href="mailto:support@bugboom.com">support@bugboom.com</a><br>
+                            Sales: <a href="mailto:sales@bugboom.com">sales@bugboom.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-section">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.551370220076!2d100.53515!3d13.730314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2993fa2f8c6d9%3A0x92cf0e47c4c2ed08!2sSilom%20MRT%20Station!5e0!3m2!1sen!2sth!4v1697000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>BUGBOOM</h3>
+                <p>Revolutionizing food waste management with innovative technology, sustainable solutions, and unmatched efficiency. Join us in creating a cleaner future.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">f</a>
+                    <a href="#" class="social-link">t</a>
+                    <a href="#" class="social-link">i</a>
+                    <a href="#" class="social-link">p</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Commercial Models</a></li>
+                    <li><a href="#">Industrial Systems</a></li>
+                    <li><a href="#">Compact Solutions</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Custom Builds</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Technical Specs</a></li>
+                    <li><a href="#">Installation Guide</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Environmental Impact</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BUGBOOM. All rights reserved. | Designed by <a href="https://templatemo.com" target="_blank" rel="nofollow" style="color: var(--accent); text-decoration: none;">TemplateMo</a></p>
+            <div class="payment-methods">
+                <div class="payment-icon">VISA</div>
+                <div class="payment-icon">MC</div>
+                <div class="payment-icon">AMEX</div>
+                <div class="payment-icon">PAY</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="templatemo-noir-scripts.js"></script>
 </body>
 </html>
